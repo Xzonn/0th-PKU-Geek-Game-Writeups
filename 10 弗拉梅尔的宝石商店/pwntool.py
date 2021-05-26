@@ -36,6 +36,5 @@ r2.sendline("END")
 r2.recvuntil("> ")
 
 r.sendline("y")
-r2.recvuntil("> ")
 r.sendline("inspect")
 r.interactive()
